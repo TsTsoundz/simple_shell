@@ -18,24 +18,24 @@
 */
 #define READ_BUFF_SIZE 1024
 #define WRITE_BUFF_SIZE 1024
-#define BUFF_SIZE_FLUSH-1
+#define BUFF_SIZE_FLUSH -1
 
 /**
 *this runs for commanding chain operations
 */
 
-#define CMD_NORM == 0
-#define CMD_EITHER == 1
-#define CMD_INCLUDE == 2
-#define CMD_PREV == 3
+#define CMD_NORM (== 0);
+#define CMD_EITHER (== 1);
+#define CMD_INCLUDE (== 2);
+#define CMD_PREV (== 3);
 
 /**
 *Conversion: to convert number(void)
 *
 */
 
-#define INIT_GETLINE == 0
-#define INIT_STRTOK == 0
+#define INIT_GETLINE (== 0);
+#define INIT_STRTOK (== 0);
 
 #define LINE_FILE "history_.simple_shell"
 #define LINE_MAX 4096
