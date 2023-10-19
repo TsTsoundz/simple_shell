@@ -1,0 +1,12 @@
+simple_shell
+This project is a part of the curriculum of software engineering for the low-level programming module at Holberton School.
+
+Description
+The project consists on creating a simple UNIX command interpreter and it's a recreation a of the command-line interpreter (shell).
+
+Compilation
+Our shell will be compiled this way:
+
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+
+And it has been tested on Ubuntu 14.04 LTS in a VirtualBox on it via Vagrant(2.2.14) using the Betty style.
